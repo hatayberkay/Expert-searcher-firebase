@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".uye_girisi"
+    android:background="#000000"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="25dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="E-MAİL"
+            android:textColor="@color/colorAccent"/>
+        <EditText
+            android:id="@+id/email_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColorHint="@color/editText"
+            android:hint="E-mail"
+            android:textColor="@color/editText"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/shape_ediitext"
+
+
+            />
+
+        <EditText
+            android:id="@+id/parola_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColorHint="@color/editText"
+            android:hint="@string/Parola"
+            android:inputType="textPassword"
+            android:textColor="@color/editText"
+
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/shape_ediitext"
+
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/giris_yap_button"
+            android:text="Giriş yap"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/shape_button_giris"
+
+
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/üye_ol_button"
+            android:text="Üye ol!"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/shape_button"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sifreni_mi_unuttun_textview"
+            android:text="Şifreni mi unuttun"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Onay Mailini tekrar gönder"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:id="@+id/onay_mailini_tekrar_gonder_textview"
+
+
+            />
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

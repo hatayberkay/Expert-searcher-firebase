@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#201E1B"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/kullanıcı_adı_textview"
+        android:textSize="20dp"
+        android:text="Ömer Nasuhi Aydemir"
+        android:textColor="@color/text_beyaz"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/konu_textview"
+        android:textSize="20dp"
+        android:text="Konu"
+        android:textColor="@color/text_beyaz"
+        android:textStyle="bold"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/son_mesaj_textview"
+        android:textSize="20dp"
+        android:text="Sizin için burdayım."
+        android:textColor="@color/text_beyaz"
+        android:textStyle="bold"
+
+        />
+
+</LinearLayout>

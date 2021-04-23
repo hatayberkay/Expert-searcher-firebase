@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <tabs>
+        <tab
+            id="@+id/ana_sayfa"
+            icon="@drawable/homeeaaa"
+            title="Ana Sayfa"
+
+            />
+        <tab
+            id="@+id/soru_sor"
+            icon="@drawable/gelen_kutusuaaa"
+            title="Soru Sor"
+            />
+
+        <tab
+            id="@+id/Mesajlar"
+            icon="@drawable/soru_soraaa"
+            title="mesajlar"
+            />
+        <tab
+            id="@+id/Profil"
+            icon="@drawable/bennaaa"
+            title="Ben"
+            />
+    </tabs>
+
+
+
+
+
+</resources>

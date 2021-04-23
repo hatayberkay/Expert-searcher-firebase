@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:background="#201E1B"
+tools:context=".soru_sor_ilanlar.ilanlar">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#000000"
+    android:textColor="#FFCC4F"
+    android:text="İlanlar"
+    android:textSize="30dp"
+    android:textStyle="bold"
+    android:paddingLeft="15dp"
+    />
+
+
+<ListView
+    android:id="@+id/ilanlar_listview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+    >
+
+
+</ListView>
+</LinearLayout>

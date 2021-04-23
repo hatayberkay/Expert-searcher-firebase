@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="something.about.hatay.profossor">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logom"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logom"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ana_sayfa_bottom_bar" />
+        <activity android:name=".uyelik_ve_giris.sifremi_unuttum" />
+        <activity android:name=".uyelik_ve_giris.üye_ol" />
+        <activity android:name=".sozlesme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".anasayfa.soru_sor_fragment" />
+        <activity android:name=".anasayfa.gelen_cevaplar_fragment" />
+        <activity android:name=".anasayfa.ben_fragment" />
+        <activity android:name=".bilgialimi.hosgeldiniz" />
+        <activity android:name=".bilgialimi.standart" />
+        <activity android:name=".uzman_olmak.uzman_bilgileri" />
+        <activity android:name=".soru_sor_ilanlar.soru_sorma_birinci" />
+        <activity android:name=".soru_sor_ilanlar.ilanlar" />
+        <activity android:name=".mesajlasma_ve_konu_acma.konu_acma" />
+        <activity android:name=".mesajlasma_ve_konu_acma.Mesajlasma" />
+        <activity android:name=".ana_sayfa_next" />
+        <activity android:name=".mesajlasma_ve_konu_acma.mesajlasma_next" />
+        <activity android:name=".mesajlasma_ve_konu_acma.foto" />
+
+        <service
+            android:name=".service"
+            android:exported="false"
+            android:supportsRtl="true" />
+        <service android:name=".MessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <!-- [END firebase_service] -->
+        <!-- [START firebase_iid_service] -->
+        <service android:name=".InstanceIdService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".uye_girisi"></activity>
+
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/logom" />
+    </application>
+
+</manifest>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#201E1B"
+    tools:context=".mesajlasma_ve_konu_acma.mesajlasma_next"
+    android:orientation="vertical">
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profil_foto_mesajlasma_next"
+        android:layout_width="103dp"
+        android:layout_height="119dp"
+        android:layout_gravity="center"
+        android:src="@drawable/profil_foto" />
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sorumu Cevaplandırdı."
+        android:layout_marginTop="10dp"
+        android:id="@+id/sorumu_cevapladı"
+        android:background="#199010"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/text_beyaz"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Engelle"
+        android:layout_marginTop="10dp"
+        android:id="@+id/engelle"
+        android:background="#F03210"
+        android:textColor="@color/text_beyaz"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Konu :"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/text_beyaz"
+
+
+        />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Konu bu kısımda yer alıyor."
+    android:textStyle="bold"
+    android:textSize="20dp"
+    android:id="@+id/konu_textview_next"
+    android:textColor="@color/text_beyaz"
+    />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sorun :"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/text_beyaz"
+        />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Sorun hakkında"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:id="@+id/sorun_textview_next"
+        android:textColor="@color/text_beyaz"
+        android:scrollbars = "vertical"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Konu hakkındaki görseller"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/text_beyaz"
+
+
+
+        />
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+
+                >
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="30dp"
+                    android:id="@+id/image_bir"
+
+                    />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="30dp"
+                    android:id="@+id/image_iki"
+
+
+                    />
+
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+
+                >
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="30dp"
+                    android:id="@+id/image_uc"
+
+                    />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="30dp"
+                    android:id="@+id/image_dort"
+
+                    />
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>
