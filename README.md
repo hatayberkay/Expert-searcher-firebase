@@ -28,7 +28,7 @@ Local side:
 * Access the gallery and camera data.
 
 Firebase works that I made:
-* Messanger ( as whatsapp except one by one notification )
+* Messanger ( as Whatsapp except one by one notification )
 * Ad for comminication with experts.
 * Profil ( all personel datas can changeable. )
 * Cloud Messaging.
