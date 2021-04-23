@@ -26,6 +26,12 @@ Local side
 * Almost all Android widgets ( spinner, textview, edittext , imageview ets.)
 * Custom button
 
+Firebase works that I made:
+* Messanger ( as whatsapp except one by one notification )
+* Ad for expers
+* Profil ( all personel datas can changeable. )
+* 
+
 
 
 
