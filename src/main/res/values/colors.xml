@@ -1,21 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <color name="colorAccent">#FF4081</color>
-
-    <color name="colorPrimary">#434343</color>
-    <color name="colorPrimaryDark">#1F1F1F</color>
-    <color name="siyah">#54524C</color>
-    <color name="koyu_siyah">#000000</color>
-    <color name="blue">#1976d2</color>
-    <color name="transparan">@android:color/transparent</color>
-    <color name="backgroundColor">#1F1F1F</color>
-    <color name="editText">#000</color>
-    <color name="buton">#ffc744</color>
-    <color name="text_beyaz">#FFFFFF</color>
-
-    <color name="enabled_color">#F7FE2E</color>
-    <color name="disabled_color">#cf0404</color>
-
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="buton">#FFFFFFFF</color>
+    <color name="text_beyaz">#FFFFFFFF</color>
+    <color name="siyah">#DC000000</color>
 
 </resources>

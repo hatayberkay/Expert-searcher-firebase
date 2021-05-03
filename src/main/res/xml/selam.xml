@@ -3,26 +3,26 @@
 
     <tabs>
         <tab
-            id="@+id/ana_sayfa"
-            icon="@drawable/homeeaaa"
-            title="Ana Sayfa"
+            id="@+id/main"
+            icon="@drawable/home"
+            title="Main"
 
             />
         <tab
-            id="@+id/soru_sor"
-            icon="@drawable/gelen_kutusuaaa"
-            title="Soru Sor"
+            id="@+id/ask"
+            icon="@drawable/nes"
+            title="ask"
             />
 
         <tab
-            id="@+id/Mesajlar"
-            icon="@drawable/soru_soraaa"
-            title="mesajlar"
+            id="@+id/message"
+            icon="@drawable/ask"
+            title="message"
             />
         <tab
-            id="@+id/Profil"
-            icon="@drawable/bennaaa"
-            title="Ben"
+            id="@+id/profil"
+            icon="@drawable/ben"
+            title="profil"
             />
     </tabs>
 

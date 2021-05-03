@@ -1,18 +1,8 @@
 <resources>
-    <string name="app_name">Profesor</string>
-    <string name="Email">Email</string>
-    <string name="Parola">Parola</string>
-    <string name="cikisyap">Çıkış Yap</string>
-    <string name="kullaniciSil">Kullanıcıyı Sil</string>
+    <string name="app_name">github_prof</string>
 
 
-    <string name="ana_sayfa">Ana Sayfa</string>
-    <string name="gelen_cevaplar">Gelen Cevaplar</string>
-    <string name="soru_sor">Soru Sor</string>
-    <string name="ben">Ben</string>
-
-
-    <array name="iller">
+    <array name="cities">
         <item></item>
         <item>Adana</item>
         <item>Adıyaman</item>
