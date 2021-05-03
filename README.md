@@ -27,6 +27,7 @@ Local side:
 * Almost all Android widgets ( spinner, textview, edittext , imageview ets.)
 * Custom button
 * Access the gallery and camera data.
+* Picasso
 
 Firebase works that I made:
 * Messanger ( as Whatsapp except one by one notification )
@@ -35,6 +36,7 @@ Firebase works that I made:
 * Cloud Messaging.
 * Reading and Writing data. ( inclueded : images )
 * Authentition.
+* Cloud Storage ( For getting imges )
 
 Generally You can:
 
