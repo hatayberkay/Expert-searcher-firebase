@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <tabs>
+        <tab
+            id="@+id/main"
+            icon="@drawable/home"
+            title="Main"
+
+            />
+        <tab
+            id="@+id/ask"
+            icon="@drawable/nes"
+            title="ask"
+            />
+
+        <tab
+            id="@+id/message"
+            icon="@drawable/ask"
+            title="message"
+            />
+        <tab
+            id="@+id/profil"
+            icon="@drawable/ben"
+            title="profil"
+            />
+    </tabs>
+
+
+
+
+
+</resources>

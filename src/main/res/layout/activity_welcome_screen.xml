@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".user_data.welcome_screen"
+    android:background="#DC000000">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to our Expert Worker"
+        android:textColor="#DFBF09"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        ></TextView>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"></Space>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You have to fill up all your espace with your spiciel data."
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center"
+        ></TextView>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="100dp"></Space>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/next_page_button"
+        android:text="Next Page"
+        ></Button>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="100dp"></Space>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Just click the button to the next page."
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        ></TextView>
+
+
+
+</LinearLayout>

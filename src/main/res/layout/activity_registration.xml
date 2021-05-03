@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Auth.registration"
+    android:background="#DC000000">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registration"
+        android:textColor="#F3DD20"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:textStyle="bold"
+
+        ></TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/rounded_edittext"
+        android:hint="Your e-mail address."
+        android:gravity="center"
+        android:id="@+id/e_mail_address_edittext"
+        android:layout_margin="20dp"
+        ></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/rounded_edittext"
+        android:hint="Your Password"
+        android:gravity="center"
+        android:id="@+id/password_edittext"
+        android:layout_margin="20dp"
+        ></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/rounded_edittext"
+        android:hint="Your Password Again"
+        android:gravity="center"
+        android:id="@+id/password_again_edittext"
+        android:layout_margin="20dp"
+        ></EditText>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save me..."
+        android:id="@+id/save_button"
+        android:layout_margin="20dp"
+        ></Button>
+
+
+
+
+</LinearLayout>
